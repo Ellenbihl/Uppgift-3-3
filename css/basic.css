@@ -1,1 +1,70 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+/*Färgkoder: Mörkbrunt #51473d 
+            Beigebruna färgen i flikarna #797066
+            Ljusbeige #eae7d2*/
+            
+#container {max-width: 960px;
+            border: 1px solid;
+            border-color: #eae7d2;
+            overflow: auto;
+            margin-left: auto;
+            margin-right: auto;}
+            
+#topbar     {padding: 20px;
+            margin: 20px;
+            background-color: #51473d;
+            height: 350px;
+            text-align: right;
+            color: white;
+            border: 1px solid;
+            border-color: #eae7d2;
+            background-image:url(pics/coffey.jpg); 
+            background-repeat: no-repeat;
+            background-size: 900px;
+            background-position: center;
+            }
+            
+#menu li {display: inline;
+        border: 1px solid;
+        border-color: #51473d;
+        float: left;
+        margin: 10px;
+        }
+        
+#menu ul {list-style: none;
+        width: 780px;
+        height: 55px;
+        margin: 0;
+        padding: 0;
+        display: block;}
+
+#menu a.active {background-color: #797066;
+                color: white;}
+                
+#content {background-color: #eae7d2;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 1px solid;
+        border-color: #eae7d2;
+        height: 500px;}
+
+#maincontent {background-color: #eae7d2;
+            float: left;
+            width: 540px;}
+            
+#subcontent {background-color: #eae7d2;
+            float: right;
+            width: 340px;
+            border-left: 1px dashed;
+            border-color: #797066;}
+            
+#bottomcontent {background-color: #eae7d2;
+                color: #51473d;
+                font-family: "Verdana", "Times New Roman", sans-serif;
+                font-size: 1em;
+                font-style: italic;
+                float: left;}
+
+
+
