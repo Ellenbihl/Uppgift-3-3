@@ -1,6 +1,7 @@
 /*Färgkoder: Mörkbrunt #51473d 
             Beigebruna färgen i flikarna #797066
-            Ljusbeige #eae7d2*/
+            Ljusbeige #eae7d2
+            Mouseover #9c9084 */
             
 /*övergripande layout*/
             
@@ -30,37 +31,42 @@
         margin-bottom: 20px;
         border: 1px solid;
         border-color: #eae7d2;
-        height: 350px;}
+        height: 400px;}
 
 #maincontent {background-color: #eae7d2;
             float: left;
             width: 540px;}
             
 #maincontent img {float: left;
-                padding: 5px;
+                margin-right: 5px;
                 margin-left: 20px;}
-            
-#subcontent {background-color: #eae7d2;
-            float: right;
-            width: 340px;
-            border-left: 1px dashed;
-            border-color: #797066;}
-            
+                
 #bottomcontent {background-color: #eae7d2;
                 color: #51473d;
                 font-family: "Verdana", "Times New Roman", sans-serif;
                 font-size: 0.7em;
                 font-style: italic;
                 float: left;
-                float: bottom;}
+                width: 910px;
+                height: 10px;
+                text-align: left;
+                bottom: 0;
+                margin-left: 20px;
+                padding: 0;}
+                
+#subcontent {background-color: #eae7d2;
+            float: right;
+            width: 340px;
+            border-left: 1px dashed;
+            border-color: #797066;}
                 
 /*Meny*/       
 #menu {width: 700px;
-            display: inline;
-            }
-            
-#menu a.active {background-color: #eae7d2;} 
-            
+        display: inline;}
+
+#menu ul.active {background-color: #eae7d2;
+                color: #797066;}
+                
 #menu li {display: inline-block;
     list-style-type: none;
     width: auto;
@@ -68,8 +74,7 @@
     border-right: 1px solid;
     border-color: #51473d;
     margin: 0;
-    padding: 0;
-   }
+    padding: 0;}
         
 #menu ul {font-family: "Verdana", "Times New Roman";
         font-size: 1em;
@@ -82,19 +87,16 @@
     color: white;
     text-decoration: none;}
     
-#menu li a:hover {color: #767066;
-        background-color: #eae7d2;}
-
-#menu a.active {background-color: #797066;
-                color: white;}
+#menu li a:hover {color: white;
+        background-color: #9c9084;}
                 
 /*Typsnitt och stolekar*/
 
 #maincontent p {color: #767066;
-    font-family: "Verdana", "Times New Roman", sans-serif;
-    font-size: 1em;
-    padding: 5px;
-    margin-left: 20px;}
+            font-family: "Verdana", "Times New Roman", sans-serif;
+            font-size: 0.9em;
+            margin-left: 20px;
+            line-height: 150%}
     
 #maincontent h1 {color: #767066;
                 font-family: "Verdana", "Times New Roman", sans-serif;
@@ -103,18 +105,24 @@
                 
 #subcontent p {color: #767066;
             font-family: "Verdana", "Times New Roman", sans-serif;
-            font-size: 0.8em;
-            padding: 5px;
-            margin-left: 20px;}
+            font-size: 0.6em;
+            padding: 0;
+            margin-left: 20px;
+            line-height: 200%;}
 
 #subcontent h1, h2 {color: #51473d;
-    font-family: "Verdana", "times new roman", sans-serif;
-    font-size: 1em;
-    margin-left: 20px;}
+            font-family: "Verdana", "times new roman", sans-serif;
+            font-size: 0.8em;
+            margin-left: 20px;}
 
+/*Länkar*/
 
-                
+#subcontent li a {color: #51473d;}                
 
+#subcontent ul {list-style-type: none;
+                margin-left: 20px;
+                padding: 0;
+                line-height: 150%;}
 
 
  
